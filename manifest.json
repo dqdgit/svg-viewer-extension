@@ -1,0 +1,46 @@
+{
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAut2KQD7dQMvP/9x9uk076R9i2g7Mq97fEQWUsv5TcerEGqzy2o3KoREEYs2kzQ5P00zxxspV+7RguL+544o61cqvwrTuhzi83RTpLDvlOY3JrNLc3wn2fJMqmAzvAFqA/ntyx6jAhzDHQEQ9KawfKK+eGVIvzC+0WUJnQjbfF/DPYoqoQnwxnbIdQ2DEtr3dMmHCN3gT5DBGDUfAGZ9pDFlH/5gXkCxGpl7+4DyC1J3mvgW6iGrNuVf02i77cSFgGjSOkxoBlQzk0hz6QqaLWTD1F8mSRirCJp/5EFhgpchd24rLs7mTfW3TuGfx1Exi1ee8j+mVGEEgYf/kqjfNvQIDAQAB",
+  "name": "SVG Viewer",
+  "version": "1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "assets/imageinfo-16.png",
+    "48": "assets/imageinfo-48.png",
+    "128": "assets/imageinfo-128.png"
+  },
+  // "content_scripts": [
+  //   {
+  //     "matches": ["https://drive.google.com/drive/u/0/*"],
+  //     "js": [
+  //       "lib/jquery-3.2.1.min.js", 
+  //       "app/utl.js", 
+  //       "app/content.js"
+  //     ]
+  //   }
+  // ],
+  "background": {
+    "scripts": [
+      "lib/jquery-3.2.1.min.js",
+      "app/utl.js",
+      "app/gdocs.js",
+      "app/svg.js",
+      "app/background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "identity",
+    "webNavigation",
+    "https://ajax.googleapis.com/",
+    "https://drive.google.com/drive/u/0/*"
+  ],
+  "oauth2": {
+    "client_id": "434264799624-1jmuhfld3e0t26atm0bu0ji64g5b58h2.apps.googleusercontent.com",
+    "scopes": [
+      "profile", 
+      "https://www.googleapis.com/auth/drive"
+    ]
+  }
+}

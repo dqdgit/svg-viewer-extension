@@ -1,0 +1,129 @@
+
+//
+// Google Drive File metedata
+//
+// metadata = JSON.parse(response);
+//
+// mimeType = metadata.mimeType;
+//
+// View URL: "https://drive.google.com/uc?id=" + fileId
+//
+
+"{
+ "kind": "drive#file",
+ "id": "0B7zmxS0GLjeAR3Y0MC1TZjBNdFU",
+ "name": "k.svg",
+ "mimeType": "image/svg+xml",
+ "description": "picture",
+ "starred": false,
+ "trashed": false,
+ "explicitlyTrashed": false,
+ "parents": [
+  "0B89lLPGl-Wkqd3JlRnRmeWU4dG8"
+ ],
+ "spaces": [
+  "drive"
+ ],
+ "version": "119522",
+ "webContentLink": "https://drive.google.com/uc?id=0B7zmxS0GLjeAR3Y0MC1TZjBNdFU&export=download",
+ "webViewLink": "https://drive.google.com/file/d/0B7zmxS0GLjeAR3Y0MC1TZjBNdFU/view?usp=drivesdk",
+ "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/image/svg+xml",
+ "hasThumbnail": true,
+ "thumbnailLink": "https://lh3.googleusercontent.com/yQ9r2KcSxNQkJ4FOcJZvadqsDmPEXorA3-JhRf1nTjqMU9QZmcHv6GWr3IlZcXJaRvvgfQ=s220",
+ "thumbnailVersion": "5",
+ "viewedByMe": true,
+ "viewedByMeTime": "2017-05-08T16:00:11.010Z",
+ "createdTime": "2017-05-08T15:55:07.926Z",
+ "modifiedTime": "2017-05-31T12:47:20.802Z",
+ "modifiedByMeTime": "2017-05-31T12:47:20.802Z",
+ "modifiedByMe": true,
+ "owners": [
+  {
+   "kind": "drive#user",
+   "displayName": "David Dunn",
+   "photoLink": "https://lh6.googleusercontent.com/-iCLr5rOUz8o/AAAAAAAAAAI/AAAAAAAAAcw/W1XoC9ZhBps/s64/photo.jpg",
+   "me": true,
+   "permissionId": "01107846200762564008",
+   "emailAddress": "david.q.dunn@gmail.com"
+  }
+ ],
+ "lastModifyingUser": {
+  "kind": "drive#user",
+  "displayName": "David Dunn",
+  "photoLink": "https://lh6.googleusercontent.com/-iCLr5rOUz8o/AAAAAAAAAAI/AAAAAAAAAcw/W1XoC9ZhBps/s64/photo.jpg",
+  "me": true,
+  "permissionId": "01107846200762564008",
+  "emailAddress": "david.q.dunn@gmail.com"
+ },
+ "shared": true,
+ "ownedByMe": true,
+ "capabilities": {
+  "canAddChildren": false,
+  "canChangeViewersCanCopyContent": true,
+  "canComment": true,
+  "canCopy": true,
+  "canDelete": true,
+  "canDownload": true,
+  "canEdit": true,
+  "canListChildren": false,
+  "canMoveItemIntoTeamDrive": true,
+  "canReadRevisions": true,
+  "canRemoveChildren": false,
+  "canRename": true,
+  "canShare": true,
+  "canTrash": true,
+  "canUntrash": true
+ },
+ "viewersCanCopyContent": true,
+ "writersCanShare": true,
+ "permissions": [
+  {
+   "kind": "drive#permission",
+   "id": "01107846200762564008",
+   "type": "user",
+   "emailAddress": "david.q.dunn@gmail.com",
+   "role": "owner",
+   "displayName": "David Dunn",
+   "photoLink": "https://lh6.googleusercontent.com/-iCLr5rOUz8o/AAAAAAAAAAI/AAAAAAAAAcw/W1XoC9ZhBps/s64/photo.jpg",
+   "deleted": false
+  },
+  {
+   "kind": "drive#permission",
+   "id": "11846110871317422011",
+   "type": "user",
+   "emailAddress": "dqdpub@gmail.com",
+   "role": "writer",
+   "displayName": "David Dunn",
+   "deleted": false
+  },
+  {
+   "kind": "drive#permission",
+   "id": "17438184534033741363",
+   "type": "user",
+   "emailAddress": "tile-tracker-web-server@mindful-folio-164814.iam.gserviceaccount.com",
+   "role": "writer",
+   "displayName": "tile-tracker-web-server",
+   "deleted": false
+  },
+  {
+   "kind": "drive#permission",
+   "id": "anyoneWithLink",
+   "type": "anyone",
+   "role": "reader",
+   "allowFileDiscovery": false
+  }
+ ],
+ "originalFilename": "k.svg",
+ "fullFileExtension": "svg",
+ "fileExtension": "svg",
+ "md5Checksum": "ca9344ceccf7831003dbcef030ed58a8",
+ "size": "16040",
+ "quotaBytesUsed": "52026",
+ "headRevisionId": "0B7zmxS0GLjeANkRNeU1aZUc3d1BrOGRRaVdUR2tnOTNXUHVvPQ",
+ "imageMediaMetadata": {
+  "width": 0,
+  "height": 0
+ },
+ "isAppAuthorized": false
+}
+"

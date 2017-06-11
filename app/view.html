@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="An SVG file viewer for Google Drive">
+  <meta name="author" content="David Dunn">
+
+  <title>SVG Viewer</title>
+
+  <script src="../lib/jquery-3.2.1.min.js"></script>
+  <script src="../app/utl.js"></script>
+  <script src="../app/view.js"></script>
+
+  <link href="../css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="svg-container">
+      <div class="svg-preview">
+        <img id="svg_img" class="svg-image" data-file-id="this-is-a-placeholder" src="../assets/icon128.png">
+      </div>
+
+      <div class="svg-details">
+        <table class="property-table">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Owner</td>
+              <td id="drive_owner"></td>
+            </tr>
+            <tr>
+              <td>Created</td>
+              <td id="drive_created"></td>
+            </tr>
+            <tr>
+              <td>Modified</td>
+              <td id="drive_modified"></td>
+            </tr>
+            <tr>
+              <td>Title</td>
+              <td id="svg_title"></td>
+            </tr>
+            <tr>
+              <td>Viewbox</td>
+              <td id="svg_viewbox"></td>
+            </tr>
+            <tr>
+              <td>Width</td>
+              <td id="svg_width"></td>
+            </tr>
+            <tr>
+              <td>Height</td>
+              <td id="svg_height"></td>
+            </tr>
+            <tr>
+              <td>Date</td>
+              <td id="svg_date"></td>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td id="svg_creator"></td>
+            </tr>
+            <tr>
+              <td>Rights</td>
+              <td id="svg_rights"></td>
+            </tr>
+            <tr>
+              <td>Publisher</td>
+              <td id="svg_publisher"></td>
+            </tr>
+            <tr>
+              <td>Keywords</td>
+              <td id="svg_keywords"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+</body>
+
+</html>
